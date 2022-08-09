@@ -1,0 +1,16 @@
+canvas{
+    border:2px black ridge;
+    border-radius:100px;
+    animation: example 4s infinite;
+    margin-top:200px;
+}
+
+@keyframes example{
+    from{
+        box-shadow: 2px 2px 20px black;
+    }
+
+    to{
+        box-shadow: 2px 2px 20px rgb(15, 15, 167);
+    }
+}
